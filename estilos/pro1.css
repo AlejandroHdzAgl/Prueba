@@ -1,0 +1,32 @@
+h1, h2, h3 {
+  color: white;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 { font-size: 25pt; line-height: 2cm; }
+h2 { font-size: 15pt; }
+h3 { font-size: 12pt; }
+
+body 
+{ 
+background-image:url('imagenes/FondoFutbol.jpg'); 
+background-repeat:repeat; 
+background-position:center; 
+background-attachment: fixed 
+}	
+
+
+/* body {background-color: 30BB47} */
+
+
+.derecha   { float: right; }
+.izquierda { float: left;  }
+
+.aviso {
+  font-size: 25pt;
+  padding: 0.5em;
+  border: 1px solid #98be10;
+  background: #f6feda;
+}
+

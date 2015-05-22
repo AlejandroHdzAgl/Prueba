@@ -1,3 +1,12 @@
+<html>
+
+<head>
+    <title>Modificaciones</title>
+    <link rel="stylesheet" type="text/css" href="estilos/pro1.css">
+</head>
+
+<body>
+
 <?php
 
 session_start();
@@ -92,7 +101,10 @@ if(!isset($_SESSION['userid']))
 
 body{
 
-background:#aaa;
+background-image:url('imagenes/cancha.jpg');
+background-repeat:repeat; 
+background-position:center; 
+background-attachment: fixed;
 
 }
 
@@ -176,7 +188,7 @@ form.login div input[type="submit"] {
 
 <form action="" method="post" class="login">
 
-    <div><label>Username</label><input name="user" type="text" ></div>
+    <div><label>Usario</label><input name="user" type="text" ></div>
 
     <div><label>Password</label><input name="password" type="password"></div>
 
@@ -188,10 +200,18 @@ form.login div input[type="submit"] {
 
 } else {
 
-    echo 'Su usuario ingreso correctamente.';
 
-    echo '<a href="logout.php">Logout</a>';
+    echo '<h2>Su usuario ingreso correctamente. Cargando...</h2>';
+
+    //echo'<br/>Atrás...<br/><br/>'
+
+    //echo '<meta http-equiv="Refresh" content="3;url=http://www.mediotiempo.com">';
+
+    echo '<a href="logout.php"><IMG SRC="imagenes/flecha2.jpg"></a>';
 
 }
 
 ?>
+
+</body>
+</html>

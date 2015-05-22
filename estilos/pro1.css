@@ -10,23 +10,36 @@ h3 { font-size: 12pt; }
 
 body 
 { 
-background-image:url('imagenes/FondoFutbol.jpg'); 
+background-image:url('imagenes/estadio.jpg'); 
 background-repeat:repeat; 
 background-position:center; 
 background-attachment: fixed 
 }	
 
-
-/* body {background-color: 30BB47} */
-
-
-.derecha   { float: right; }
-.izquierda { float: left;  }
-
-.aviso {
-  font-size: 25pt;
-  padding: 0.5em;
-  border: 1px solid #98be10;
-  background: #f6feda;
+.izquierda {
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  display: inline;
 }
 
+.derecha {
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  display: inline;
+}
+
+.escudos {
+	display: inline;
+}
+
+.mi_tabla { 
+  background-image: url('imagenes/green.jpg');
+ } 
+
+ .mi_tabla2 { 
+  background-image: url('imagenes/cubos.jpg');
+ } 
